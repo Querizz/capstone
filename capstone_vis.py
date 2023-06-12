@@ -8,10 +8,10 @@ st.set_page_config(
     layout="wide"
 )
 
-df_customer_analysis = pd.read_csv(r'D:\file imam\_Data Analyst\tetris\Capstone Project\DataSet\brazillian ecommerce dataset\csv_file\customer_analysis.csv')
-df_geo_analysis = pd.read_csv(r'D:\file imam\_Data Analyst\tetris\Capstone Project\DataSet\brazillian ecommerce dataset\csv_file\geolocation_analysis.csv')
-df_order_items_analysis = pd.read_csv(r'D:\file imam\_Data Analyst\tetris\Capstone Project\DataSet\brazillian ecommerce dataset\csv_file\order_items_analysis.csv')
-df_seller_analysis = pd.read_csv(r'D:\file imam\_Data Analyst\tetris\Capstone Project\DataSet\brazillian ecommerce dataset\csv_file\seller_analysis.csv')
+df_customer_analysis = pd.read_csv('customer_analysis.csv')
+df_geo_analysis = pd.read_csv('geolocation_analysis.csv')
+df_order_items_analysis = pd.read_csv('order_items_analysis.csv')
+df_seller_analysis = pd.read_csv('seller_analysis.csv')
 
 st.title('Dashboard Olist E-Commerce')
 st.header('Latar Belakang')
